@@ -166,14 +166,30 @@
 
 %--------------------------------------------------------------------------------------------------
 \begin{rSubsection}{EIM (Edgeline Infrastructure Manager)}
-{HPE Houston}{Environment: Docker, Django,  MariaDB, RabbitMQ, NGINX, Grommet}{ }  %June 2016 - November 2016
+{HPE Houston}{Environment: CentOS, Docker, Django,  MariaDB, RabbitMQ, NGINX, Grommet}{ }  %June 2016 - November 2016
 
 \vspace{-3pt}
 
-\item EIM is a virtual appliance to help manage HPE Edgeline and other HPE Converged IoT systems.
-\item Designed and implemented celery based solution for firmware update feature.
+\item EIM is a virtual appliance to help manage HPE Edgeline and other HPE Converged IoT systems
+\item Designed and implemented celery based solution for firmware update feature
 \item Implemented licensing module using AutoPass Java library
-\item Investigated and implemented 
+\item Involed in implementing RESTful and Private API for UI
+\item Investigated and implemented openbox, chromium based console KIOSK mode
+%\item Currently working on modularizing and scalability of EIM
+
+\end{rSubsection}
+
+%--------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------
+\begin{rSubsection}{MRSP (Moonshot Redfish Service Proxy)}
+{HPE Houston}{Environment: CentOS, Docker, Django,  SQLite, AMQP}{ }  %June 2016 - November 2016
+
+\vspace{-3pt}
+
+\item MRSP is a virtual appliance capable of providing a Redfish Compliant REST API for managing multiple Moonshot
+\item Understood and implemented AMQP based eventing feature, to notify Apache Qpid Broker
+\item Implemented multithreaded scalable dispatcher module, to crawl data from managed targets
 
 \end{rSubsection}
 
