@@ -93,7 +93,8 @@
 
 \vspace{-3pt}
 
-\item Implemented CISCO APIC - HPE OneView Integration and BROKER for enterprise notification
+\item Implemented an utility to integrate CISCO APIC - HPE OneView 
+\item Implemented project BEN (Broker for Enterprise Notification)
 \item Implemented multiple Proof Of Concept
 \end{rSubsection} 
 
@@ -183,6 +184,50 @@
 
 %--------------------------------------------------------------------------------------------------
 \begin{rSubsection}{MRSP (Moonshot Redfish Service Proxy)}
+{HPE Houston}{Environment: CentOS, Docker, Django,  SQLite, AMQP}{ }  %June 2016 - November 2016
+
+\vspace{-3pt}
+
+\item MRSP is a virtual appliance capable of providing a Redfish Compliant REST API for managing multiple Moonshot
+\item Understood and implemented AMQP based eventing feature, to notify Apache Qpid Broker
+\item Implemented multithreaded scalable dispatcher module, to crawl data from managed targets
+
+\end{rSubsection}
+
+%--------------------------------------------------------------------------------------------------
+% broker for enterprise notification
+% OneView-CISCO ACI integration
+% SCE/vSCE
+%--------------------------------------------------------------------------------------------------
+\begin{rSubsection}{BEN (Broker for Enterprise Notification)}
+{HPE Bangalore}{Environment: Flask, SQLite, AMQP}{ }  %June 2016 - November 2016
+
+\vspace{-3pt}
+
+\item BEN is a broker between enterprise application and the client, that lets securely push notifications to endpoints via Cloud
+\item Implemented REST API and a plugin which interact with OneView's REST and RabbitMQ
+\item Implemented multiprocessed subscription manager module that manages active subscription
+
+\end{rSubsection}
+
+%--------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------
+\begin{rSubsection}{OneView-CISCO ACI integration}
+{HPE Bangalore}{Environment: CentOS, Docker, Django,  SQLite, AMQP}{ }  %June 2016 - November 2016
+
+\vspace{-3pt}
+
+\item MRSP is a virtual appliance capable of providing a Redfish Compliant REST API for managing multiple Moonshot
+\item Understood and implemented AMQP based eventing feature, to notify Apache Qpid Broker
+\item Implemented multithreaded scalable dispatcher module, to crawl data from managed targets
+
+\end{rSubsection}
+
+%--------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------
+\begin{rSubsection}{vSCE (virtualized Service Control Engine)}
 {HPE Houston}{Environment: CentOS, Docker, Django,  SQLite, AMQP}{ }  %June 2016 - November 2016
 
 \vspace{-3pt}
