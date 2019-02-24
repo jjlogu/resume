@@ -195,9 +195,7 @@
 \end{rSubsection}
 
 %--------------------------------------------------------------------------------------------------
-% broker for enterprise notification
-% OneView-CISCO ACI integration
-% SCE/vSCE
+
 %--------------------------------------------------------------------------------------------------
 \begin{rSubsection}{BEN (Broker for Enterprise Notification)}
 {HPE Bangalore}{Environment: Flask, SQLite, AMQP}{ }  %June 2016 - November 2016
@@ -205,22 +203,23 @@
 \vspace{-3pt}
 
 \item BEN is a broker between enterprise application and the client, that lets securely push notifications to endpoints via Cloud
-\item Implemented REST API and a plugin which interact with OneView's REST and RabbitMQ
+\item Implemented REST API and a plugin which interact with OneView's REST API and RabbitMQ
 \item Implemented multiprocessed subscription manager module that manages active subscription
+\item Implemented command line utility to list the active subscription details
+\item Implemented the logic to send push notification through WNS and GCM
 
 \end{rSubsection}
 
 %--------------------------------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------------------------------
-\begin{rSubsection}{OneView-CISCO ACI integration}
-{HPE Bangalore}{Environment: CentOS, Docker, Django,  SQLite, AMQP}{ }  %June 2016 - November 2016
+\begin{rSubsection}{OneView-CISCO ACI integration toolkit}
+{HPE Bangalore}{Environment: Python}{ }  %June 2016 - November 2016
 
 \vspace{-3pt}
 
-\item MRSP is a virtual appliance capable of providing a Redfish Compliant REST API for managing multiple Moonshot
-\item Understood and implemented AMQP based eventing feature, to notify Apache Qpid Broker
-\item Implemented multithreaded scalable dispatcher module, to crawl data from managed targets
+\item Implemented a standalone python utility that can generate a report by mapping APIC policies to OneView resources 
+\item Optionally based on the generated report it can auto create the missing resource in OneView
 
 \end{rSubsection}
 
