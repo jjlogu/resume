@@ -43,18 +43,18 @@
 \begin{rSection}{Summary}
 \begin{itemize}
 \setlength\itemsep{-1pt}
-\item Overall 7 years of experience primarily on \textbf{Python, C programming, Linux and Networking}
+\item Overall 7+ years of experience primarily on \textbf{Python, C programming, Linux and Networking}
 \item Experience on \textbf{RESTful interface development} and consumption of various RESTful interface
 \item Experience on \textbf{multiprocessing, multithreading and socket programming}
 \item Experience on \textbf{Celery and WebSocket}
-\item Experience on \textbf{RabbitMQ, Apache Qpid and AMQP}
+\item Experience on \textbf{MQTT, ZeroMQ, RabbitMQ, Apache Qpid and AMQP}
 \item Hands on knowledge of \textbf{TCP/IP stack}
 \item Experience on \textbf{virtualization}, with hands on knowledge of \textbf{Docker, QEMU, KVM, ESxi and LIBVIRT}
 \item Hands on knowledge of \textbf{RHOSP and OpenStack} environment setup
 \item Hands on knowledge of \textbf{HPE synergy, HPE BladeSystem C7000, HPE Moonshot and HPE Edgeline products (EL1000/EL4000/EL300)}
 \item Knowledge on \textbf{HPE OneView and iLO}
 \item Experience on Python module development
-\item As a personal interest actively learning machine learning
+%\item As a personal interest actively learning machine learning
 \end{itemize}
 
 %Minor in Linguistics \smallskip \\
@@ -87,6 +87,7 @@
 \vspace{-3pt}
 
 \item Involved in developing EIM (Edgeline Infrastructure Manager) and MRSP (Moonshot Redfish Service Proxy)
+\item Involved in developing Moonshot Chassis Manager (CM2)
 \end{rSubsection} 
 
 \vspace{-4pt}
@@ -189,6 +190,8 @@
 \item Implemented licensing module using AutoPass Java library
 \item Involed in implementing RESTful and Private API for UI
 \item Investigated and implemented openbox, chromium based console KIOSK mode
+\item Understood and implemented AMQP based eventing feature, to notify Apache Qpid Broker
+\item Implemented multithreaded scalable dispatcher module, to crawl data from managed targets
 %\item Currently working on modularizing and scalability of EIM
 
 \end{rSubsection}
@@ -196,14 +199,16 @@
 %--------------------------------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------------------------------
-\begin{rSubsection}{MRSP (Moonshot Redfish Service Proxy)}
-{HPE Houston}{Environment: CentOS, Docker, Django,  SQLite, AMQP}{ }  %June 2016 - November 2016
+\begin{rSubsection}{Moonshot Chassis Manager (CM2)}
+{HPE Houston}{Environment: Ubuntu, Django,  SQLite, ZeroMQ, Python, C, Rust}{ }  %June 2016 - November 2016
 
 \vspace{-3pt}
 
-\item MRSP is a virtual appliance capable of providing a Redfish Compliant REST API for managing multiple Moonshot
-\item Understood and implemented AMQP based eventing feature, to notify Apache Qpid Broker
-\item Implemented multithreaded scalable dispatcher module, to crawl data from managed targets
+\item CM2 is a management software running on HPE Moonshot2
+\item Same code base is capable of running on HPE's other upcoming hardwares (Ex: EL300, EL8000)
+\item Implemented network stack
+\item Involved in developing CLI commands, Redfish REST apis and other backend logics
+
 
 \end{rSubsection}
 
