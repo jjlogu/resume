@@ -21,8 +21,8 @@
 %----------------------------------------------------------------------------------------
  
 \documentclass{resume} % Use the custom resume.cls style 
-
 \usepackage[left=0.4 in,top=0.15 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
+\usepackage{xcolor}  
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Logu J} % Your name 
@@ -43,16 +43,16 @@
 \begin{rSection}{Summary}
 \begin{itemize}
 \setlength\itemsep{-1pt}
-\item Overall 8+ years of experience primarily on \textbf{Python, C programming, Linux and Networking}
-\item Experience on \textbf{RESTful interface development} and consumption of various RESTful interface
+\item Overall 8+ years of experience primarily on \textbf{\colorbox{yellow}{Python,} C programming, \colorbox{yellow}{Linux and Networking}}
+\item Experience on \textbf{\colorbox{yellow}{RESTful interface development}} and consumption of various \colorbox{yellow}{RESTful interface}
 \item Experience on \textbf{multiprocessing, multithreading and socket programming}
 \item Experience on \textbf{Celery and WebSocket}
 \item Experience on \textbf{I2C, MQTT, ZeroMQ, RabbitMQ, Apache Qpid and AMQP}
 \item Hands on knowledge of \textbf{TCP/IP stack}
-\item Experience on \textbf{virtualization}, with hands on knowledge of \textbf{Docker, QEMU, KVM, ESxi and LIBVIRT}
+\item Experience on \textbf{virtualization}, with hands on knowledge of \textbf{\colorbox{yellow}{Docker}, QEMU, KVM, ESxi and LIBVIRT}
 \item Hands on knowledge of \textbf{RHOSP and OpenStack} environment setup
 \item Hands on knowledge of \textbf{HPE synergy, HPE BladeSystem C7000, HPE Moonshot,  HPE Edgeline products (EL1000/EL4000/EL300/EL8000),  HPE OneView and iLO} 
-\item Experience on Python module development and CLI development
+\item Experience on \colorbox{yellow}{Python module development} and CLI development
 %\item As a personal interest actively learning machine learning
 \end{itemize}
 
@@ -81,7 +81,7 @@
 %--------------------------------------------------------------------------------------
 \begin{rSection}{ Work Experience } \itemsep -1pt        
 
-\begin{rSubsection}{Mphasis Limited}{Nov 2015-Present}{Senior Software Engineer}{Houston/Bangalore}    
+\begin{rSubsection}{Mphasis Limited}{Nov 2015-Present}{Senior \colorbox{yellow}{Software Engineer}}{Houston/Bangalore}    
 
 \vspace{-3pt}
 
@@ -104,7 +104,7 @@
 \vspace{-4pt}
 
 
-\begin{rSubsection}{HCL Technologies}{Jun 2013-Nov 2015}{Software Engineer}{Chennai}    
+\begin{rSubsection}{HCL Technologies}{Jun 2013-Nov 2015}{\colorbox{yellow}{Software Engineer}}{Chennai}    
 
 \vspace{-3pt}
 
@@ -148,7 +148,7 @@
 
 \begin{rSection}{Skills} \itemsep -3pt  
 
-{\textbf{Development Languages:} Python, C, Golang, Shell Scripting, SQL }  \\
+{\textbf{Development Languages:} \colorbox{yellow}{Python}, C, \colorbox{yellow}{Golang}, Shell Scripting, SQL }  \\
 % {\textbf{UI:} HTML, JavaScript, CSS} \\
 {\textbf{Tools:} Git, Make, GDB, VIM} 
 \end{rSection}  
@@ -180,8 +180,8 @@
 \item Improved dispatcher's(Catching mechanism) performance by 82\% and latency by 50\%, by completely rewriting it using event based multithreading
 \item Implemented scalable firmware update with 5x performance improvement(in comparison to existing utility) using celery
 \item Investigated and implemented WebSocket using Django channels
-\item Implemented licensing module using AutoPass Java library
-\item Implemented RESTful and Private API for UI with REDFISH standard
+\item Implemented licensing module using AutoPass \colorbox{yellow}{Java} library
+\item Implemented RESTful and Private \colorbox{yellow}{API} for UI with REDFISH standard
 \item Investigated and implemented openbox, chromium based console KIOSK mode
 \item Understood and implemented RabbitMQ based eventing feature, to notify Apache Qpid Broker
 %\item Currently working on modularizing and scalability of EIM
@@ -192,16 +192,16 @@
 
 %--------------------------------------------------------------------------------------------------
 \begin{rSubsection}{Chassis Manager Firmware}
-{HPE Houston}{Environment: Ubuntu, Django,  SQLite, ZeroMQ, Python, C, Golang, Pyinstaller}{ }  %June 2016 - November 2016
+{HPE Houston}{Environment: Ubuntu, Django,  SQLite, ZeroMQ, Python, C, \colorbox{yellow}{Golang}, Pyinstaller}{ }  %June 2016 - November 2016
 
 \vspace{-3pt}
 
 \item Chassis Manager is a management firmware running on all HPE's edgeline hardware (Ex: Moonshot2, EL300, EL8000)
 %\item Same code base is capable of running on HPE's all HPE edgeline hardwares (Ex: CM2, EL300, EL8000)
-\item Improved API latency by 75\%, by completely rewriting blade cache with reduced number of HTTP request
+\item Improved \colorbox{yellow}{API} latency by 75\%, by completely rewriting blade cache with reduced number of HTTP request
 \item Improved network stack performance by 2x times, by completely rewriting it using ip utils along with IPv6 support
 \item Implemented switch firmware update 
-\item Involved in developing CLI, Redfish REST apis and other backend logics
+\item Involved in developing CLI, Redfish \colorbox{yellow}{REST apis} and other backend logics
 
 
 \end{rSubsection}
@@ -215,7 +215,7 @@
 \vspace{-3pt}
 
 \item BEN is a broker between enterprise application and the client, that lets securely push notifications to endpoints via Cloud
-\item Implemented REST interface and a plugin which interacts with OneView's REST API and RabbitMQ
+\item Implemented REST interface and a plugin which interacts with OneView's \colorbox{yellow}{REST API} and RabbitMQ
 \item Implemented multiprocess subscription manager module that manages active subscription
 \item Implemented command line utility to list the active subscription details
 \item Implemented the logic to send push notification through WNS and GCM
@@ -245,7 +245,7 @@
 
 \item It provides virtualized DPI (Deep Packet Inspection) as a service
 \item Involved in transforming SCE code base for QEMU-KVM environment and contributed in bug fixing
-\item Deployed in OpenStack environment using Cisco internal orchestration tool CTCM (Cisco Teleco Cloud Manager)
+\item Deployed in OpenStack environment using Cisco internal orchestration tool CTCM (Cisco Teleco \colorbox{yellow}{Cloud} Manager)
 
 \end{rSubsection}
 
@@ -265,7 +265,7 @@
 
 \item \textbf{Machine Learning Basic Nanodegree} from \textbf{Udacity}
 \item \textbf{Deep Learning Specialization} from \textbf{Andrew Ng, Coursera}
-\item \textbf{Master Go (Golang) Programming} from \textbf{Andrei Dumitrescu, Udemy}
+\item \textbf{Master Go (\colorbox{yellow}{Golang}) Programming} from \textbf{Andrei Dumitrescu, Udemy}
 %\item \textbf{Basic Compilers} from Stanford online education
 \item \textbf{Introduction to Computer Networks} from Stanford online education
 %\item \textbf{CS107: C++ Programming} from Saylor Academy awards
